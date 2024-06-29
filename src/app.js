@@ -11,13 +11,13 @@ window.onload = function() {
   function generadordedominio() {
     let pronombres = ["the", "this", "that"];
     let adjetivos = ["free", "amazing", "efficiente"];
-    let nombres = ["webside", "course", "academy"];
+    let nombres = ["inter", "ciber", "open"];
     let dominios = [];
 
     pronombres.forEach(pronombre => {
       adjetivos.forEach(adjetivo => {
         nombres.forEach(nombre => {
-          dominios.push(pronombre + adjetivo + nombre + ".com");
+          dominios.push(pronombre + adjetivo + nombre + ".net");
         });
       });
     });
